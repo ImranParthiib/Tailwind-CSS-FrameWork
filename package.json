@@ -1,12 +1,12 @@
 {
-  "name": "tailwind-css(framework)",
+  "name": "tailwindframeworkcss",
   "version": "1.0.0",
-  "description": "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
