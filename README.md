@@ -31,7 +31,7 @@ Tailwind CSS is an open-source utility-first CSS framework that helps you rapidl
     npx tailwindcss init -p    
 
 3.**Import Tailwind Styles**: In your main stylesheet, import the Tailwind CSS styles: 
-
+```bash
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
