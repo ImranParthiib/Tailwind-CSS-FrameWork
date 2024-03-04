@@ -31,10 +31,12 @@ Tailwind CSS is an open-source utility-first CSS framework that helps you rapidl
     npx tailwindcss init -p    
 
 3.**Import Tailwind Styles**: In your main stylesheet, import the Tailwind CSS styles: 
-```bash
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+
+    @import 'tailwindcss/base';
+    @import 'tailwindcss/components';
+    @import 'tailwindcss/utilities';
+
+
 
 4.**package.json**: In package.json change the test in script to start and add vite into "" this.[package.json](Learning_Phase_1.1/package.json)
  
