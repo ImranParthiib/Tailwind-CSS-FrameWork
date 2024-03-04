@@ -49,7 +49,8 @@ In [tailwind.config](Learning_Phase_1.1/tailwind.config.js)in the content put th
     npm run start 
 
 # Resources
-[Tailwind CSS Documentation](https://tailwindcss.com/)
+[Tailwind CSS Documentation](https://tailwindcss.com/) 
+<br>
 [PostCSS Documentation](https://postcss.org/docs/)
 # Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request.
