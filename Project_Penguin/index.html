@@ -12,6 +12,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/tailwind.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              productbg: "#50d71e",
+            },
+          },
+        },
+      };
+    </script>
   </head>
 
   <!-- ?Body Started Here -->
@@ -239,7 +251,7 @@
       >
         <!-- ?Text Div -->
         <div class="space-y-4 text-center sm:text-left">
-          <h1 class="uppercase text-4xl lg:text-5xl">
+          <h1 class="uppercase text-3xl lg:text-5xl">
             <span class="text-orange-400 font-semibold"> Be the Penguins </span>
             <br />
             <span class="font-serif">of Winter</span>
@@ -256,12 +268,79 @@
         </div>
         <!-- ?Image Div -->
         <div>
-          <img src="images/penguin.png" alt="" />
+          <img src="images/Developers.png" alt="" />
         </div>
       </section>
-      
+
       <!-- ?Women Jackets  -->
-      <section></section>
+      <section class="m-20">
+        <h1 class="text-3xl font-bold">Women Jackets</h1>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+          <!-- ?jacket-1 -->
+          <div class="p-4 shadow-md rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-1.png" alt="Women Jacket" />
+            </div>
+
+            <h6 class="text-2xl font-semibold">Yellow Coat jacket</h6>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex gap-14 pt-3">
+              <h3 class="text-4xl font-bold text-amber-500">$232</h3>
+              <button
+                class="uppercase bg-lime-600 rounded text-slate-200 p-2 pl-3 pr-4 text-sm font-serif"
+              >
+                <i class="fa-solid fa-cart-shopping pr-1"></i> Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- ?jacket-2 -->
+          <div class="p-4 shadow-md rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-2.png" alt="Women Jacket" />
+            </div>
+
+            <h6 class="text-2xl font-semibold">Yellow Coat jacket</h6>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex gap-14 pt-3">
+              <h3 class="text-4xl font-bold text-amber-500">$232</h3>
+              <button
+                class="uppercase bg-lime-600 rounded text-slate-200 p-2 pl-3 pr-4 text-sm font-serif"
+              >
+                <i class="fa-solid fa-cart-shopping pr-1"></i> Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- ?jacket-3 -->
+          <div class="p-4 shadow-md rounded-xl">
+            <div class="p-5 bg-slate-100 rounded-xl">
+              <img src="images/jacket-3.png" alt="Women Jacket" />
+            </div>
+
+            <h6 class="text-2xl font-semibold">Yellow Coat jacket</h6>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex gap-14 pt-3">
+              <h3 class="text-4xl font-bold text-amber-500">$232</h3>
+              <button
+                class="uppercase bg-lime-600 rounded text-slate-200 p-2 pl-3 pr-4 text-sm font-serif"
+              >
+                <i class="fa-solid fa-cart-shopping pr-1"></i> Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ?Men's Jackets -->
       <section></section>
 
