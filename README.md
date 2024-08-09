@@ -19,9 +19,14 @@ Tailwind CSS is an open-source utility-first CSS framework that helps you rapidl
 ## Setup with PostCSS
 
 1. **Installation**: Install Tailwind CSS and its dependencies using npm or yarn.
+   
+   ```bash
+   npm init -y
 
    ```bash
    npm install tailwindcss postcss autoprefixer vite
+
+
 
 
 2. **Confiquration**:Generate a Tailwind CSS configuration file by running:
